@@ -1,0 +1,46 @@
+body{
+    background-color: chocolate;
+}
+.column{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between
+}
+.row{
+    flex-basis: 30%;
+}
+ nav ul{
+    float: right;
+    list-style:none;
+}
+ ul li{
+    display: inline-block;
+} 
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid chocolate;
+    transition: 0.6s ease;
+}
+ nav ul li a:hover{
+    color: black;
+    background-color: yellow;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+button{
+    background-color: chocolate;
+    border-radius: 10px;
+}
+button:hover{
+   background-color: yellow; 
+}
+footer{
+    background-color: blue;
+    text-align: center;
+}
